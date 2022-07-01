@@ -1,0 +1,71 @@
+{
+  "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+  "clientId": "2a9fc163-c52d-4c7a-9c6f-933aea3ce33e",
+  "subscriptionId": "476f61a4-952c-422a-b4db-568a828f35df",
+  "resourceGroup": "bingoz",
+  "testBaseAccount": "bingoz",
+  "artifact": "package.zip",
+  "package": {
+    "properties": {
+      "applicationName": "",
+      "version": "",
+      "targetOSList": [
+        {
+          "osUpdateType": "Security updates",
+          "targetOSs": [
+            "Windows 11 21H2",
+            "Windows 10 21H2"
+          ]
+        },
+        {
+          "osUpdateType": "Feature updates",
+          "targetOSs": [
+            "Windows 10 21H2"
+          ]
+        }
+      ],
+      "flightingRing": "Insider Beta Channel",
+      "tests": [
+        {
+          "commands": [
+            {
+              "action": "Install",
+              "content": "scripts/outofbox/install.ps1",
+              "name": "install",
+              "restartAfter": true
+            },
+            {
+              "action": "Launch",
+              "content": "scripts/outofbox/launch.ps1"
+            },
+            {
+              "action": "Close",
+              "content": "scripts/outofbox/close.ps1"
+            },
+            {
+              "action": "Uninstall",
+              "content": "scripts/outofbox/uninstall.ps1"
+            }
+          ],
+          "testType": "OutOfBoxTest"
+        },
+        {
+          "commands": [
+            {
+              "action": "Custom",
+              "applyUpdateBefore": true,
+              "content": "scripts/functional/script1.ps1",
+              "restartAfter": true
+            },
+            {
+              "action": "Custom",
+              "content": "scripts/functional/script2.ps1",
+              "restartAfter": true
+            }
+          ],
+          "testType": "FunctionalTest"
+        }
+      ]
+    }
+  }
+}
