@@ -11,8 +11,8 @@
     },
     "location": "global",
     "properties": {
-      "applicationName": "",
-      "version": "",
+      "applicationName": "java-pipeline-demo",
+      "version": "1.0",
       "targetOSList": [
         {
           "osUpdateType": "Security updates",
