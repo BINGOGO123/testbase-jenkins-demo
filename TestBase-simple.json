@@ -4,7 +4,7 @@
   "subscriptionId": "476f61a4-952c-422a-b4db-568a828f35df",
   "resourceGroup": "bingoz",
   "testBaseAccount": "bingoz",
-  "artifact": "package.zip",
+  "artifact": "java-demo.zip",
   "package": {
     "properties": {
       "applicationName": "java-pipeline-demo",
