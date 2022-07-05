@@ -6,6 +6,7 @@
   "testBaseAccount": "bingoz",
   "artifact": "java-demo.zip",
   "package": {
+    "location": "global",
     "properties": {
       "applicationName": "java-pipeline-demo",
       "version": "1.1",
