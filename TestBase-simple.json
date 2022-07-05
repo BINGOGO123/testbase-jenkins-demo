@@ -8,7 +8,7 @@
   "package": {
     "properties": {
       "applicationName": "java-pipeline-demo",
-      "version": "1.0",
+      "version": "1.1",
       "targetOSList": [
         {
           "osUpdateType": "Security updates",
