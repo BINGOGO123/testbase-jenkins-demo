@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                greet configurationFilePath: 'TestBase.json', name: 'bingoz', useJenkinsOptions: true
+                greet configurationFilePath: 'TestBase.json', useJenkinsOptions: true
             }
         }
     }
