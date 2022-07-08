@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Onboard') {
             steps {
                 echo 'Hello World'
-                testBase configurationFilePath: 'TestBase.json', useJenkinsOptions: true
+                testBase useConfigurationFile: true, configurationFilePath: 'TestBase.json'
             }
         }
     }
