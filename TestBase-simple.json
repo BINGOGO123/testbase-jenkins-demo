@@ -9,19 +9,18 @@
     "location": "global",
     "properties": {
       "applicationName": "java-pipeline-demo",
-      "version": "1.3",
+      "version": "1.0",
       "targetOSList": [
         {
           "osUpdateType": "Security updates",
           "targetOSs": [
-            "Windows 11 21H2",
-            "Windows 10 21H2"
+            "Windows 11 21H2"
           ]
         },
         {
           "osUpdateType": "Feature updates",
           "targetOSs": [
-            "Windows 10 21H2"
+            "Windows 11 21H2"
           ]
         }
       ],
