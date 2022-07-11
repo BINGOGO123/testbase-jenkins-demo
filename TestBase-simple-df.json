@@ -3,7 +3,7 @@
   "clientId": "eb82c345-56d8-4ccd-b0c0-525a025e9adc",
   "subscriptionId": "9fabf001-9c1f-4aab-9451-e431da271956",
   "resourceGroup": "bingoz",
-  "testBaseAccount": "best_account",
+  "testBaseAccount": "worst_account",
   "artifact": "java-demo.zip",
   "package": {
     "location": "global",
