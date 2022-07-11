@@ -3,7 +3,7 @@ tenantId: f686d426-8d16-42db-81b7-ab578e110ccd
 clientId: eb82c345-56d8-4ccd-b0c0-525a025e9adc
 subscrpitionId: 9fabf001-9c1f-4aab-9451-e431da271956
 resourceGroup: bingoz
-testBaseAccount: good_account
+testBaseAccount: bad_account
 artifact: java-demo.zip
 
 # package info
