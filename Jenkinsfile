@@ -2,10 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Onboard') {
+        stage('onboard') {
             steps {
-                echo 'Hello World'
-                testBase useConfigurationFile: true, configurationFilePath: 'TestBase.json'
+                testBase useConfigurationFile: true, configurationFilePath: 'TestBase-df.json', credentialsId: 'dfclientsecret'
             }
         }
     }

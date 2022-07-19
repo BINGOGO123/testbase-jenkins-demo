@@ -4,7 +4,7 @@
     "subscriptionId": "9fabf001-9c1f-4aab-9451-e431da271956",
     "resourceGroup": "bingoz",
     "testBaseAccount": "worst_account",
-    "artifact": "java-demo.zip",
+    "artifact": "/one/two/java-demo-two.zip",
     "package": {
       "tags": {
         "你的名字": "好看"
