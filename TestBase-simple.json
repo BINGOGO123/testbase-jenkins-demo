@@ -8,7 +8,7 @@
   "package": {
     "location": "global",
     "properties": {
-      "applicationName": "java-pipeline-demo",
+      "applicationName": "testbase-package-jenkins",
       "version": "1.0",
       "targetOSList": [
         {
