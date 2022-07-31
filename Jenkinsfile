@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('onboard') {
             steps {
-                testBase useConfigurationFile: true, configurationFilePath: 'TestBase-df.json', credentialsId: 'dfclientsecret'
+                testBase useConfigurationFile: true, configurationFilePath: 'TestBase.json', credentialsId: 'clientsecret'
             }
         }
     }
